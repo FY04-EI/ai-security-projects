@@ -2,11 +2,12 @@
 
 Background in networks and cybersecurity: firewalling, segmentation, Linux systems.
 I am currently building machine learning from the ground up, with a focus on how these systems can be attacked and defended.
+I study with Claude as a tutor: it asks questions and challenges my reasoning rather than giving answers. I write the code myself (except the plotting code).
 
 ## Projects
 
-- **[micrograd](https://github.com/FY04-EI/ai-security-projects/tree/main/01-micrograd)**: a scalar autograd engine and a small neural network, written from scratch. *In progress.*
-  I implemented backpropagation by hand: recording the computation graph, ordering it topologically, and accumulating gradients through the chain rule, then trained a small MLP with gradient descent. The same gradient, taken with respect to the input instead of the weights, is what adversarial attacks exploit.
+- **[micrograd](https://github.com/FY04-EI/ai-security-projects/tree/main/01-micrograd)**: a scalar autograd engine and a small neural network, re-implemented from scratch following Andrej Karpathy's *Neural Networks: Zero to Hero* (episode 1). *In progress.*
+  I implemented backpropagation by hand: recording the computation graph, ordering it topologically, and accumulating gradients through the chain rule, then trained a small MLP with gradient descent.
 
 ## Currently working on
 
