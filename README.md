@@ -1,9 +1,16 @@
-Part of my AI security roadmap — see [my profile](https://github.com/FY04-EI).
+# FY04-EI
 
-# AI security projects
+Background in networks and cybersecurity: firewalling, segmentation, Linux systems.
+I am currently building machine learning from the ground up, with a focus on how these systems can be attacked and defended.
 
-Deliverables of a project-based roadmap in AI and machine learning security.
+## Projects
 
-## [01 · micrograd](https://github.com/FY04-EI/ai-security-projects/tree/main/01-micrograd)
+- **[micrograd](https://github.com/FY04-EI/ai-security-projects/tree/main/01-micrograd)**: a scalar autograd engine and a small neural network, written from scratch. *In progress.*
+  I implemented backpropagation by hand: recording the computation graph, ordering it topologically, and accumulating gradients through the chain rule, then trained a small MLP with gradient descent. The same gradient, taken with respect to the input instead of the weights, is what adversarial attacks exploit.
 
-An automatic differentiation engine written from scratch. Computing a gradient with respect to the input rather than the weights is the basis of adversarial attacks, which come in the next phase.
+## Currently working on
+
+- **Image classifier**: small CNNs trained from scratch on CIFAR-10, evaluated on the held-out test set, with reproducible runs.
+- **Text classifier**: sentiment analysis on movie reviews.
+
+Both will be published in the same repository once complete.
