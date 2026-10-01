@@ -11,8 +11,3 @@ A reimplementation of a reverse-mode automatic differentiation engine and a smal
 - `demo.ipynb` — gradient checks and a training run with its loss curve
 
 The engine has no external dependency. Matplotlib is only used by the demo.
-
-## Run it
-
-    uv sync
-    uv run jupyter lab
